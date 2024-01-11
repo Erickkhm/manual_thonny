@@ -6,7 +6,7 @@ github_username:  ma-robles
 instagram_username: mi4rob
 email: miguel.robles@atmosfera.unam.mx
 url: "https://ma-robles.github.io"
-baseurl: "/template_manual"
+baseurl: "/manual_thonny"
 #repo: https://github.com/ma-robles/template_manual/
 lang: "es-mx"
 show_downloads: false
