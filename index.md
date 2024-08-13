@@ -22,7 +22,7 @@ Thonny es un software de programación principalmente utilizado para conectar di
 
 1. Acceder a <https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads>
 
-2. Descragar el driver CP210x Universal Windows Driver
+2. Descargar el driver "CP210x Universal Windows Driver"
 ![driver](/assets/img/driver.png)
 
 3. Guardarlo y descomprimirlo en una ubicación conocida y de fácil acceso.
@@ -33,13 +33,13 @@ Thonny es un software de programación principalmente utilizado para conectar di
 
 6. Dar doble click en este
 
-7. Dar click en la opción de "Actualizar controlador"
+7. Dar click en la opción "Actualizar controlador"
 ![controlador](/assets/img/controlador.png)
 
 8. Dentro de la opción de controladores, seleccionar la opción de "Buscar controladores en mi equipo"
 ![controladores](/assets/img/controladores.png)
 
-9. Dar click en examinar
+9. Dar click en "examinar"
 
 10. Seleccionar la carpeta donde previamente se descomprimió el CP210x Universal Windows Driver
 ![driver2](/assets/img/driver2.png)
@@ -54,15 +54,15 @@ Thonny es un software de programación principalmente utilizado para conectar di
 ## Configuración para conectar a la ESP32
 1. Abrir Thonny
 
-2. En el menú “Run”, seleccionar “Configure Interpreter...”
+2. En el menú “Run”, seleccionar "Configure Interpreter..."
 ![config](/assets/img/config.png)
 
-3. En la pestaña “Interpreter”, seleccionar “Micropython (ESP32)” y el puerto correspondiente (en Windows aparece como “Silicon Labs CP210x USB to UART Bridge”/"Dispositivo serie USB (COM##).
+3. En la pestaña "Interpreter", seleccionar "Micropython (ESP32)" y el puerto correspondiente (en Windows aparece como "Silicon Labs CP210x USB to UART Bridge" o "Dispositivo serie USB (COM##)".
 
 4. Desactivar todas las opciones de la última sección, excepto "restart interpreter before running a script"
 
 5. Click en OK
 ![interpreter](/assets/img/interpreter.png)
 
-### Estás listo para utilizar Tony
-![interpreter](/assets/img/interpreter.png)
+#### Estás listo para utilizar Tony
+![tony](/assets/img/tony.png)
