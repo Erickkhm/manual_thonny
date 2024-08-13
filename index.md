@@ -11,41 +11,58 @@ Thonny es un software de programación principalmente utilizado para conectar di
 
 ## Instalación
 1. Acceder a <https://thonny.org>
+
 2. En la sección Download (descargas), hacer click en la versión correspondiente a su sistema operativo.
 ![download](/assets/img/download.png)
 
 3. Ejecutar el archivo descargado, se iniciará un asistente de instalación que le guiará paso a paso. 
 
-## Configuración para conectar a la ESP32
-1. Abrir Thonny,
-2. En el menú “Run”, seleccionar “Configure Interpreter...”
-![config](/assets/img/config.png)
-
-3. En la pestaña “Interpreter”, seleccionar “Micropython (ESP32)” y el puerto correspondiente (en Windows aparece como “Silicon Labs CP210x USB to UART Bridge”).
-4. Desactivar todas las opciones de la última sección, excepto "restart interpreter before running a script"
-5. Click en OK
-![interpreter](/assets/img/interpreter.png)
 
 ## Descarga de driver para Windows 
+
 1. Acceder a <https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads>
+
 2. Descragar el driver CP210x Universal Windows Driver
 ![driver](/assets/img/driver.png)
+
 3. Guardarlo y descomprimirlo en una ubicación conocida y de fácil acceso.
+
 4. Conectar la ESP32.
+
 5. Abrir el "Administrador de dispositivos" y buscar el dispositivo que aparezca como desconocido o en la sección "otros".
+
 6. Dar doble click en este
+
 7. Dar click en la opción de "Actualizar controlador"
 ![controlador](/assets/img/controlador.png)
-9. Dentro de la opción de controladores, seleccionar la opción de "Buscar controladores en mi equipo"
+
+8. Dentro de la opción de controladores, seleccionar la opción de "Buscar controladores en mi equipo"
 ![controladores](/assets/img/controladores.png)
-11. Dar click en examinar
-12. Seleccionar la carpeta donde previamente se descomprimió el CP210x Universal Windows Driver
+
+9. Dar click en examinar
+
+10. Seleccionar la carpeta donde previamente se descomprimió el CP210x Universal Windows Driver
 ![driver2](/assets/img/driver2.png)
-13. Una vez que termine el proceso de instalación, el controlador ya está instalado y el dispositivo listo para usarse.
-![listo](/assets/img/listo.png)   
+
+11. Una vez que termine el proceso de instalación, el controlador ya está instalado y el dispositivo listo para usarse.
+![listo](/assets/img/listo.png)
 
 ## Instalar o Actualizar el firmware de Micropython
 
 ** en desarrollo
 
+## Configuración para conectar a la ESP32
+1. Abrir Thonny
 
+2. En el menú “Run”, seleccionar “Configure Interpreter...”
+![config](/assets/img/config.png)
+
+3. En la pestaña “Interpreter”, seleccionar “Micropython (ESP32)” y el puerto correspondiente (en Windows aparece como “Silicon Labs CP210x USB to UART Bridge”/"Dispositivo serie USB (COM##).
+
+4. Desactivar todas las opciones de la última sección, excepto "restart interpreter before running a script"
+
+5. Click en OK
+![interpreter](/assets/img/interpreter.png)
+
+### Estás listo para utilizar Tony
+![interpreter](/assets/img/interpreter.png)
