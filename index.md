@@ -35,8 +35,8 @@ Thonny es un software de programación principalmente utilizado para conectar di
 2. En la pestaña “Interpreter”, seleccionar "Install or update MicroPython (espool)"
 3. Elegir el puerto correspondiente, familia MicroPython (ESP32, ESP32-S2, ESP32-S3 o ESP32-C3) y variante "Espressif"
 4. Click en "Instalar"
+   
 ![firm](/assets/img/firm.png)
-
 
 ** en desarrollo
 
