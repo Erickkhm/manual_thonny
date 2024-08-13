@@ -39,7 +39,7 @@ Thonny es un software de programación principalmente utilizado para conectar di
 8. Dentro de la opción de controladores, seleccionar la opción de *Buscar controladores en mi equipo*
 ![controladores](/assets/img/controladores.png)
 
-9. Dar click en "examinar"
+9. Dar click en *examinar*
 
 10. Seleccionar la carpeta donde previamente se descomprimió el *CP210x Universal Windows Driver*
 ![driver2](/assets/img/driver2.png)
