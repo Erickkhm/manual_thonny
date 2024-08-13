@@ -37,12 +37,12 @@ Thonny es un software de programación principalmente utilizado para conectar di
 7. Dar click en la opción de "Actualizar controlador"
 ![controlador](/assets/img/controlador.png)
 9. Dentro de la opción de controladores, seleccionar la opción de "Buscar controladores en mi equipo"
-![controlador](/assets/img/controlador.png)
+![controladores](/assets/img/controladores.png)
 11. Dar click en examinar
 12. Seleccionar la carpeta donde previamente se descomprimió el CP210x Universal Windows Driver
-![interpreter](/assets/img/interpreter.png)
+![driver2](/assets/img/driver2.png)
 13. Una vez que termine el proceso de instalación, el controlador ya está instalado y el dispositivo listo para usarse.
-![interpreter](/assets/img/interpreter.png)   
+![listo](/assets/img/listo.png)   
 
 ## Instalar o Actualizar el firmware de Micropython
 
